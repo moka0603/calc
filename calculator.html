@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script> 
+        <link rel="stylesheet" href="calculator.css">
+        <title>電卓</title>
+      </head>
+      <body>
+        <div class="calculator">
+          <input type="text" id = "disp" value="" disabled >
+         <table>    
+            <tr> 
+              <th><input type="button" value = "7" onClick ="number(this)"></th>
+              <th><input type="button" value = "8" onClick ="number(this)"></th>
+              <th><input type="button" value = "9" onClick ="number(this)"></th>
+              <th><input type="button" class="btn-color" value = "+" onClick ="calc(this)"></th>
+            </tr>   
+            <tr>  
+              <th><input type="button" value = "4" onClick ="number(this)"></th>
+              <th><input type="button" value = "5" onClick ="number(this)"></th>
+              <th><input type="button" value = "6" onClick ="number(this)"></th>
+              <th><input type="button"  class="btn-color" value = "-"  onClick ="calc(this)">
+            </tr>   
+            <tr>
+              <th><input type="button" value = "1" onClick ="number(this)"></th>
+              <th><input type="button" value = "2" onClick ="number(this)"></th>
+              <th><input type="button" value = "3" onClick ="number(this)"></th>
+              <th><input type="button" class="btn-color" value = "*" onClick ="calc(this)"></th>
+            </tr>
+            <tr>
+              <th><input type="button" value = "0" onClick ="zero(this)"></th>
+              <th><input type="button" value = "00" onClick ="wZero(this)"></th>
+              <th><input type="button" value = "." onClick ="point(this)"></th>
+              <th><input type="button" class="btn-color" value = "/"　onClick ="calc(this)"></th>
+            </tr>
+            <tr>
+              <th><input type="button" class="btn-color2" value ="AC" onClick ="resetClear(this)"></th>
+              <th><input type="button" class="btn-color2" value ="=" onClick ="result(this)"></th>
+            </tr>
+          </table>
+        </div>
+        <script src="calculator.js"></script>
+      </body>
+    </html>

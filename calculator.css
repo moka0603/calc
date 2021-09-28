@@ -1,0 +1,48 @@
+.calculator  {
+  background-color: #94fcca;
+  width: 400px;
+  height: 500px;
+  padding:30px;
+  border-radius: 5px;
+}
+
+#disp {
+  width: 100%;
+  height: 100px;
+  background-color: #474645;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 50px;
+}
+
+table {
+  width: 100%;
+}
+
+table tr {
+  width: 100%;
+}
+
+table th {
+  width: 25%;
+}
+
+table input{
+  width: 100%;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.btn-color {
+  background-color:#00db99;
+}
+
+.btn-color2 {
+  background-color:#00af6f;
+}
+table input vlue {
+  font-size: 30px;
+}
